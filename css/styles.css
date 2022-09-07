@@ -36,7 +36,6 @@ body {
     text-transform: uppercase;
 }
 .tital.features-list-tital {
-    color: var(--tital-text-color);  
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -81,9 +80,9 @@ span {
 .filter-btn {
     background-color: var(--btn-color);
     color: var(--tital-text-color);
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.63;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
 }
 
 .filter-btn:hover,
@@ -118,7 +117,6 @@ span {
 }
 
 .team-member {
-    color: var(--tital-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -138,4 +136,8 @@ span {
 .portfolio-desc {
         font-size: 16px;
         line-height: 1.9;
+}
+
+.tital {
+    color: var(--tital-text-color);
 }
