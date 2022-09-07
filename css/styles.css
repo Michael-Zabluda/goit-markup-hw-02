@@ -1,0 +1,141 @@
+/* оcновной цвет текста - Серый #757575
+вторичный цвет текста (цвет заголовков) - черный #212121
+белый - #FFFFFF
+акцент - #2196F3
+цвет кнопок фильтра - #F5F4FA
+*/
+:root {
+    --primary-text-color: #757575;
+    --tital-text-color: #212121;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --btn-color: #F5F4FA;
+}
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-family: "roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.hero,
+.footer {
+    background-color: #2F303A;
+}
+
+.tital.hero-tital {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.tital.features-list-tital {
+    color: var(--tital-text-color);  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.team {
+    background-color: var(--btn-color)
+}
+
+span {
+    color: var(--accent-color);
+}
+
+.nav:hover,
+.nav:focus {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.nav {
+    text-decoration: none;
+}
+
+.hero-btn {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+
+.filter-btn {
+    background-color: var(--btn-color);
+    color: var(--tital-text-color);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+}
+
+.filter-btn:hover,
+.filter-btn:hover {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.17;
+}
+
+.main-menu {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+
+.features-tital {
+    display: none;
+}
+
+.selection-tital { 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.team-member {
+    color: var(--tital-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.logo-word {
+    color: var(--white-color);
+}
+
+.portfolio-tital {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+
+.portfolio-desc {
+        font-size: 16px;
+        line-height: 1.9;
+}
