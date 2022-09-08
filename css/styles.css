@@ -10,6 +10,7 @@
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
     --btn-color: #F5F4FA;
+    --black-color: #000000;
 }
 
 body {
@@ -92,7 +93,8 @@ span {
     color: var(--white-color);
 }
 
-.logo {
+.logo,
+.nav.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -152,4 +154,8 @@ span {
 .footer-menu {
     color: var(--white-color);
     font-style: normal;
+}
+
+.studio-word {
+    color: var(--black-color);
 }
