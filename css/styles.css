@@ -63,6 +63,7 @@ span {
 .btn {
     font-family: inherit;
     cursor: pointer;
+    border: none;
 }
 
 .nav,
@@ -147,15 +148,26 @@ span {
     color: var(--tital-text-color);
 }
 
-.phone.nav.main-menu {
-    color: var(--primary-text-color);
-}
-
 .footer-menu {
-    color: var(--white-color);
+    color: var(--white-color) 60%;
     font-style: normal;
 }
 
+.footer-menu-address{
+    color: var(--white-color);
+}
 .studio-word {
     color: var(--black-color);
+}
+
+.header-contacts {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.accent {
+    color: var(--accent-color);
 }
